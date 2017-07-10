@@ -25,6 +25,8 @@ namespace ProyectoWEB2.Models
 
         public System.Data.Entity.DbSet<ProyectoWEB2.Controllers.Reunion> Reunions { get; set; }
 
+        public System.Data.Entity.DbSet<ProyectoWEB2.Controllers.Tickets> Tickets { get; set; }
+
         ///   public System.Data.Entity.DbSet<ProyectoWEB2.Controllers.Usuario> Usuarios { get; set; }
     }
 }

@@ -211,6 +211,7 @@
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\ProyectoWEB2Context.cs" />
     <Compile Include="Models\ReunionsController.cs" />
+    <Compile Include="Models\TicketsController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -286,6 +287,11 @@
     <Content Include="Views\Reunions\Details.cshtml" />
     <Content Include="Views\Reunions\Edit.cshtml" />
     <Content Include="Views\Reunions\Index.cshtml" />
+    <Content Include="Views\Tickets\Create.cshtml" />
+    <Content Include="Views\Tickets\Delete.cshtml" />
+    <Content Include="Views\Tickets\Details.cshtml" />
+    <Content Include="Views\Tickets\Edit.cshtml" />
+    <Content Include="Views\Tickets\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

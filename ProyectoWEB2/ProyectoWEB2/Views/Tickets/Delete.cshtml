@@ -1,0 +1,65 @@
+﻿@model ProyectoWEB2.Controllers.Tickets
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Tickets</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Titulo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Titulo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.detalle)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.detalle)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.reportado)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.reportado)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.clienye)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.clienye)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.estado)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.estado)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

@@ -16,7 +16,7 @@ namespace ProyectoWEB2
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Contactoes", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "home", action = "Index", id = UrlParameter.Optional }
             );
         }
     }

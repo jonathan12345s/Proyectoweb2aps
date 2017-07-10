@@ -101,3 +101,4 @@ C:\Users\JONATHAN\Documents\Proyectoweb2aps\ProyectoWEB2\ProyectoWEB2\obj\Debug\
 C:\Users\JONATHAN\Documents\Proyectoweb2aps\ProyectoWEB2\ProyectoWEB2\obj\Debug\ProyectoWEB2.Migrations.InitialCreate.resources
 C:\Users\JONATHAN\Documents\Proyectoweb2aps\ProyectoWEB2\ProyectoWEB2\obj\Debug\ProyectoWEB2.csproj.GenerateResource.Cache
 C:\Users\JONATHAN\Documents\Proyectoweb2aps\ProyectoWEB2\ProyectoWEB2\obj\Debug\ProyectoWEB2.Migrations.nombre.resources
+C:\Users\JONATHAN\Documents\Proyectoweb2aps\ProyectoWEB2\ProyectoWEB2\obj\Debug\ProyectoWEB2.csprojResolveAssemblyReference.cache

@@ -1,0 +1,58 @@
+﻿@model IEnumerable<ProyectoWEB2.Controllers.Reunion>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.diayhora)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.usuarios)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Virtual)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.clientes)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ClienteNombre)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.diayhora)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.usuarios)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Virtual)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.clientes)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ClienteNombre)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.id })
+        </td>
+    </tr>
+}
+
+</table>

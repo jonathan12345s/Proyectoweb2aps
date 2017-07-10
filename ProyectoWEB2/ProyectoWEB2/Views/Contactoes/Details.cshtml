@@ -1,74 +1,67 @@
 ﻿@model ProyectoWEB2.Controllers.Contacto
 
 @{
-    Layout = null;
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<!DOCTYPE html>
+<h2>Details</h2>
 
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Details</title>
-</head>
-<body>
-    <div>
-        <h4>Contacto</h4>
-        <hr />
-        <dl class="dl-horizontal">
-            <dt>
-                @Html.DisplayNameFor(model => model.Nombre)
-            </dt>
-    
-            <dd>
-                @Html.DisplayFor(model => model.Nombre)
-            </dd>
-    
-            <dt>
-                @Html.DisplayNameFor(model => model.Apellidos)
-            </dt>
-    
-            <dd>
-                @Html.DisplayFor(model => model.Apellidos)
-            </dd>
-    
-            <dt>
-                @Html.DisplayNameFor(model => model.correo)
-            </dt>
-    
-            <dd>
-                @Html.DisplayFor(model => model.correo)
-            </dd>
-    
-            <dt>
-                @Html.DisplayNameFor(model => model.telefono)
-            </dt>
-    
-            <dd>
-                @Html.DisplayFor(model => model.telefono)
-            </dd>
-    
-            <dt>
-                @Html.DisplayNameFor(model => model.puesto)
-            </dt>
-    
-            <dd>
-                @Html.DisplayFor(model => model.puesto)
-            </dd>
-    
-            <dt>
-                @Html.DisplayNameFor(model => model.ClienteNombre)
-            </dt>
-    
-            <dd>
-                @Html.DisplayFor(model => model.ClienteNombre)
-            </dd>
-    
-        </dl>
-    </div>
-    <p>
-        @Html.ActionLink("Edit", "Edit", new { id = Model.id }) |
-        @Html.ActionLink("Back to List", "Index")
-    </p>
-</body>
-</html>
+<div>
+    <h4>Contacto</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nombre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Apellidos)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Apellidos)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.correo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.correo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.telefono)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.telefono)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.puesto)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.puesto)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ClienteNombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ClienteNombre)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

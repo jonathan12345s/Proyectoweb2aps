@@ -14,7 +14,7 @@ namespace ProyectoWEB2.Models
         // automatically whenever you change your model schema, please use data migrations.
         // For more information refer to the documentation:
         // http://msdn.microsoft.com/en-us/data/jj591621.aspx
-    
+
         public ProyectoWEB2Context() : base("name=ProyectoWEB2Context")
         {
         }
@@ -25,8 +25,9 @@ namespace ProyectoWEB2.Models
 
         public System.Data.Entity.DbSet<ProyectoWEB2.Controllers.Reunion> Reunions { get; set; }
 
-        public System.Data.Entity.DbSet<ProyectoWEB2.Controllers.Tickets> Tickets { get; set; }
+       public System.Data.Entity.DbSet<ProyectoWEB2.Controllers.Tickets> Tickets { get; set; }
 
         ///   public System.Data.Entity.DbSet<ProyectoWEB2.Controllers.Usuario> Usuarios { get; set; }
     }
 }
+

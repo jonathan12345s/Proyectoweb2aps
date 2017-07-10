@@ -96,6 +96,8 @@ C:\Users\JONATHAN\Documents\Proyectoweb2aps\ProyectoWEB2\ProyectoWEB2\bin\es\Mic
 C:\Users\JONATHAN\Documents\Proyectoweb2aps\ProyectoWEB2\ProyectoWEB2\bin\es\Microsoft.Owin.Security.Google.resources.dll
 C:\Users\JONATHAN\Documents\Proyectoweb2aps\ProyectoWEB2\ProyectoWEB2\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
 C:\Users\JONATHAN\Documents\Proyectoweb2aps\ProyectoWEB2\ProyectoWEB2\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
-C:\Users\JONATHAN\Documents\Proyectoweb2aps\ProyectoWEB2\ProyectoWEB2\obj\Debug\ProyectoWEB2.csprojResolveAssemblyReference.cache
 C:\Users\JONATHAN\Documents\Proyectoweb2aps\ProyectoWEB2\ProyectoWEB2\obj\Debug\ProyectoWEB2.dll
 C:\Users\JONATHAN\Documents\Proyectoweb2aps\ProyectoWEB2\ProyectoWEB2\obj\Debug\ProyectoWEB2.pdb
+C:\Users\JONATHAN\Documents\Proyectoweb2aps\ProyectoWEB2\ProyectoWEB2\obj\Debug\ProyectoWEB2.Migrations.InitialCreate.resources
+C:\Users\JONATHAN\Documents\Proyectoweb2aps\ProyectoWEB2\ProyectoWEB2\obj\Debug\ProyectoWEB2.csproj.GenerateResource.Cache
+C:\Users\JONATHAN\Documents\Proyectoweb2aps\ProyectoWEB2\ProyectoWEB2\obj\Debug\ProyectoWEB2.Migrations.nombre.resources

@@ -20,5 +20,7 @@ namespace ProyectoWEB2.Models
         }
 
         public System.Data.Entity.DbSet<ProyectoWEB2.Controllers.Cliente> Clientes { get; set; }
+
+        public System.Data.Entity.DbSet<ProyectoWEB2.Controllers.Contacto> Contactoes { get; set; }
     }
 }

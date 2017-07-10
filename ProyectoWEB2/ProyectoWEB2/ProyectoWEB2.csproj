@@ -282,6 +282,7 @@
     <Content Include="Views\Contactoes\Details.cshtml" />
     <Content Include="Views\Contactoes\Edit.cshtml" />
     <Content Include="Views\Contactoes\Index.cshtml" />
+    <Content Include="Views\Account\LoginUser.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

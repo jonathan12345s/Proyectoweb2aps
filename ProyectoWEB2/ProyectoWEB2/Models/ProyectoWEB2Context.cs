@@ -23,6 +23,6 @@ namespace ProyectoWEB2.Models
 
         public System.Data.Entity.DbSet<ProyectoWEB2.Controllers.Contacto> Contactoes { get; set; }
 
-        public System.Data.Entity.DbSet<ProyectoWEB2.Controllers.Usuario> Usuarios { get; set; }
+     ///   public System.Data.Entity.DbSet<ProyectoWEB2.Controllers.Usuario> Usuarios { get; set; }
     }
 }

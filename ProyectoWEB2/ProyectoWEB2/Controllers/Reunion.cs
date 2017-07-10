@@ -26,7 +26,12 @@ namespace ProyectoWEB2.Controllers
         public String clientes { get; set; }
 
         public string ClienteNombre { get; set; }
-        //public virtual  Clientecontacto { get; set; }
+
+
+
+        public virtual Cliente Clientecontacto { get; set; }
+
+
 
 
 

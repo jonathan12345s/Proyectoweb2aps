@@ -1,0 +1,58 @@
+﻿@model ProyectoWEB2.Controllers.Cliente
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Cliente</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.nombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nombre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.cedulaJuridica)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.cedulaJuridica)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.paginaWeb)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.paginaWeb)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.numeroTelefono)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.numeroTelefono)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Sector)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Sector)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

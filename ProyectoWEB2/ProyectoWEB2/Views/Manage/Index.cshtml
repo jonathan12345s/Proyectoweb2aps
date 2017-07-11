@@ -16,17 +16,28 @@
             @if (Model.HasPassword)
             {
                 @Html.ActionLink("Cambiar la contraseña", "ChangePassword")
+
+
             }
             else
             {
                 @Html.ActionLink("Crear", "SetPassword")
             }
+
+
             ]
         </dd>
         <dt>Inicios de sesión externos:</dt>
         <dd>
+            
+            <input id="Password1" type="password" />
             @Model.Logins.Count [
             @Html.ActionLink("Administrar", "ManageLogins") ]
+
+            <hr /><select id="Select1">
+    <option></option>
+
+</select>
         </dd>
         @*
             Los números de teléfono se pueden usar como un segundo factor de comprobación en un sistema de autenticación en dos fases.
